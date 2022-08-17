@@ -43,7 +43,7 @@ OfflineMessage表
 |message|VARCHAR(50)|离线消息|NOT NULL|
 
 
-#需要nginx的负载均衡配置,nginx.conf中进行设置。
+# 需要nginx的负载均衡配置,nginx.conf中进行设置。
 '''bash
 stream{
    upstream MyServer {
