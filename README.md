@@ -44,7 +44,7 @@ OfflineMessage表
 
 
 #需要nginx的负载均衡配置,nginx.conf中进行设置。
-'''
+'''bash
 stream{
    upstream MyServer {
                 server ip地址:端口 weight=1 max_fails=3 fail_timeout=30s;
